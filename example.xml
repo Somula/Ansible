@@ -1,0 +1,35 @@
+These is the example of one address:
+<Person>
+    <name>John</name>
+    <DOB>02-09-2014</DOB>
+    <Age>9</Age>
+    <Address>
+        <D.No>234</D.No>
+        <street>venue street</street>
+        <village>kessara</village>
+        <city>Hyderabad</city>
+        <pincode>123456</pincode>
+    </Address>
+</Person>
+
+The below is example of two or more address:
+<Person>
+    <name>John</name>
+    <DOB>23-12-2023</DOB>
+    <Address>
+        <HomeAddress>
+            <D.No>234</D.No>
+            <Street>nagaram</street>
+            <city>Hyderabad</city>
+        </HomeAddress>
+
+        <CurrentAddress>
+            <D.No>2-34</D.No>
+            <street>hubli</street>
+            <city>Banglore</city>
+        </CurrentAddress>
+    </Address>
+</Person>
+
+
+

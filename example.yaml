@@ -1,0 +1,26 @@
+In YAML indentation is matter.
+----------------------------------------------------------------
+The below YAML script is containing only one Address:
+--------------------------------------------------------------
+- name: ram
+  age: 36
+  address:
+    address-line1: venkateshwara nagar
+    address-line2: simhapuri
+    city: Hyderabad
+  email: sl@gmail.com
+
+The below YAML script is containing list of addresses:
+--------------------------------------------------------
+- name:shiv
+  age:25
+  address:
+  - address-line1: sainikpuri colony
+    address-line2: sainikpuri
+    city: hyderabad
+  - address-line2: vivek nagar
+    address-line2: mothinagar
+    city: shamshabad
+  email: somulalingareddy2@gmail.com
+  
+

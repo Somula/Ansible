@@ -1,0 +1,35 @@
+The below is the having one type of address in json.
+{
+    "name":"ram",
+    "DOB":"02-09-1998",
+    "Address": {
+        "D.No":"23-234",
+        "street":"nagaram",
+        "city":"HYd"
+    }
+
+
+}
+
+If we have list of address, how can we write the json is seen below:
+
+{
+    "name":"ram",
+    "age":"18",
+    "Address": [
+        {
+            "D.No":"347",
+            "street":"venkateshwara nagar colony",
+            "city":"Banglore",
+            "type":home
+        },
+        {
+            "D.No":"456",
+            "street":"bansuvada",
+            "city":"Nizambad",
+            "type":office
+        }
+    ]
+}
+
+
