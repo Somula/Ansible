@@ -1,0 +1,30 @@
+#data types used in YAML
+- name: checking data types
+  hosts: localhost
+  vars:
+    name: "Rama lingeswar Reddy" #key:value
+    skills: #list data type
+    - DevOps
+    - Ansible
+    - Java
+    - Python
+    Experince:#It is a map data type which contain key value pairs
+      mechanical-background: 1.5
+      software-background: 1.5
+    Trainer: true #boolean
+  tasks:
+  - name: print key value pairs
+    ansible.builtin.debug:
+      msg: "name: {{name}}"
+
+  - name: print the list
+    ansible.builtin.debug:
+      msg: "Skills: {{skills}}"
+
+  - name: print the map
+    ansible.builtin.debug:
+      msg: "Experiences: {{Experience}}"
+
+  - name: print the bollean
+    ansible.builtin.debug:
+      msg: "Trainer: {{Trainer}}"
