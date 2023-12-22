@@ -7,10 +7,10 @@
     person: "ram from play"
     wishes: "morning from play"
   vars_prompt:
-  - name: name of person
+  - name: person
     person: "ram from prompt"
     private: false
-  - name: name of wishes
+  - name: wishes
     wishes: "morning from prompt"
     private: false
   tasks:
