@@ -8,7 +8,7 @@ localhost
 [localhost:vars]
 name="Rama Lingeswar Reddy"
 course="DevOps from inventory"
-durtion="110hrs"
+duration="110hrs"
 
 [web]
 54.160.29.38
