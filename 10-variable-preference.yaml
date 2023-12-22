@@ -1,0 +1,22 @@
+#variables which are prefered first among all
+- name: variables are prefered first
+  hosts:  localhost
+  vars_files:
+  - variables.yaml
+  vars:
+    person: "ram from play"
+    wishes: "morning from play"
+  vars_prompts:
+  - name: name of person
+    person: "ram from prompt"
+    private: false
+  - name: name of wishes
+    wishes: "morning from prompt"
+    private: false
+  tasks:
+  - name: variables are prefered first in task
+    vars:
+      person: "ram from task"
+      wishes: "morning from task"
+    ansible.builtin.debug:
+      msg: "Hi {{person}}, Good {{wishes}}"
