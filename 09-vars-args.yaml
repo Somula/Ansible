@@ -1,0 +1,7 @@
+#input the variables from command lines
+- name: variable from command line
+  hosts: localhost
+  tasks:
+  - name: variable from command line at task level
+    ansible.builtin.debug:
+      msg: "Hi, {{person}}, {{wishes}}"
