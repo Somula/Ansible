@@ -1,4 +1,5 @@
 #Task level variables
+# Task level variables can overide play level variables
 - name: variables at task level
   hosts: localhost
   tasks:
