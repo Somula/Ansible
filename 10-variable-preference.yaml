@@ -1,4 +1,7 @@
 #variables which are prefered first among all
+#1.Using command line arguments first it will preferred.
+#2.task
+#3.
 - name: variables are prefered first
   hosts:  localhost
   vars_files:
@@ -15,8 +18,8 @@
     private: false
   tasks:
   - name: variables are prefered first in task
-    vars:
-      person: "ram from task"
-      wishes: "morning from task"
+    #vars:
+    #  person: "ram from task"
+    #  wishes: "morning from task"
     ansible.builtin.debug:
       msg: "Hi {{person}}, Good {{wishes}}"
