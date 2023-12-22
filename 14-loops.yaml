@@ -1,5 +1,6 @@
 - name: loops
   hosts: localhost
+  become: true
   tasks:
   - name: print-package
     ansible.builtin.package:
@@ -9,4 +10,3 @@
     - git
     - mysql
     - postfix
-    
