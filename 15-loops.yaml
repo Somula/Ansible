@@ -1,5 +1,6 @@
 - name: loops
   hosts: localhost
+  become: true
   tasks:
   - name: creating advance loops
     ansible.builtin.package:
