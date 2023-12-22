@@ -1,5 +1,6 @@
 - name: we are using conditions in playbook
   hosts: localhost
+  becomes: true
   tasks:
   - name: check roboshop user exists or not
     ansible.builtin.command: id roboshop
