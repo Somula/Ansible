@@ -8,10 +8,10 @@
     wishes: "morning from play"
   vars_prompt:
   - name: person
-    person: "ram from prompt"
+    prompt: please enter name of person
     private: false
   - name: wishes
-    wishes: "morning from prompt"
+    prompt: please enter wishes
     private: false
   tasks:
   - name: variables are prefered first in task
